@@ -37,7 +37,7 @@ public class TestClassObject {
         System.out.println("Score      : " + s3.score);
         System.out.println();
 
-        // ทดลองเปลี่ยนค่า score ของ s1 แล้วดูว่า s2, s3 เปลี่ยนตามหรือไม่
+        //ทดลองเปลี่ยนค่า score ของ s1 แล้วดูว่า s2, s3 เปลี่ยนตามไหม
         s1.score = 90;
         System.out.println(">>> หลังเปลี่ยน s1.score = 90 <<<");
         System.out.println("s1 -> " + s1.name + " : " + s1.score);
